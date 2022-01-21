@@ -1,0 +1,21 @@
+{
+    "name": "citrus",
+    "version": "1.0.0",
+    "description": "The next big discord bot framework for Discord.js",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "discord",
+        "discord-js",
+        "discord.js",
+        "framework",
+        "commands",
+        "bot-framework",
+        "modular",
+        "customizable"
+    ],
+    "author": "Lemon Rose <yash.kul69@gmail.com> [https://japandotorg.me]",
+    "license": "ISC"
+}
