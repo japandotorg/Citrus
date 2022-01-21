@@ -1,0 +1,16 @@
+# npm files
+node_modules
+
+# vscode files
+.vscode/*
+!.vscode/settings.json
+
+# build
+dist
+docs
+
+# typescript
+tsconfig.tsbuildinfo
+yarn-error.log
+
+# test

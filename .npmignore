@@ -1,0 +1,11 @@
+# NPM
+node_modules
+.git
+.vscode
+.eslintrc.json
+.gitattributes
+.gitignore
+.travis.yml
+.vscode
+test/
+docs/
