@@ -4,7 +4,15 @@
     "description": "The next big discord bot framework for Discord.js",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "lint": "yarn eslint ./src",
+		"test": "yarn build && cd ./test && yarn && yarn test && cd ../",
+		"test:run": "yarn build && cd ./test && yarn && yarn start && cd ../",
+		"test:all": "yarn lint && yarn test",
+		"format": "yarn prettier . --write",
+		"build": "yarn rimraf dist && yarn tsc",
+		"build:no-emit": "yarn tsc --noEmit",
+		"prepare": "yarn build",
+		"prepublishOnly": "yarn lint && yarn build:no-emit"
     },
     "keywords": [
         "discord",
