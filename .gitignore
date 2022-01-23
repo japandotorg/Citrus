@@ -14,3 +14,6 @@ tsconfig.tsbuildinfo
 yarn-error.log
 
 # test
+test/node_modules
+test/dist
+test/package-lock.json
