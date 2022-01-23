@@ -1,6 +1,6 @@
 {
-    "name": "citrus",
-    "version": "1.0.0-dev",
+    "name": "discord-citrus",
+    "version": "1.0.0",
     "description": "The next big discord bot framework for Discord.js",
     "main": "index.js",
     "scripts": {
