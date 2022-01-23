@@ -11,8 +11,7 @@
 		"format": "yarn prettier . --write",
 		"build": "yarn rimraf dist && yarn tsc",
 		"build:no-emit": "yarn tsc --noEmit",
-		"prepare": "yarn build",
-		"prepublishOnly": "yarn lint && yarn build:no-emit"
+		"prepare": "yarn build"
     },
     "keywords": [
         "discord",
