@@ -1,6 +1,6 @@
 {
     "name": "discord-citrus",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "The next big discord bot framework for Discord.js",
     "main": "index.js",
     "scripts": {
@@ -27,12 +27,12 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "https://github.com/japandotorg/Citrus"
+        "url": "https://github.com/japandotorg/discord-citrus"
     },
     "bugs": {
-        "url": "https://github.com/japandotorg/Citrus/issues"
+        "url": "https://github.com/japandotorg/discord-citrus/issues"
     },
-    "homepage": "https://github.com/japandotorg/Citrus",
+    "homepage": "https://github.com/japandotorg/discord-citrus#readme",
     "prettier": {
         "useTabs": true,
         "trailingComma": "none",
